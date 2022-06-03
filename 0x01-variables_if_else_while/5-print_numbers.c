@@ -15,4 +15,5 @@ int main(void)
 	{
 		printf("%d", base);
 	}
+	return (0);
 }
