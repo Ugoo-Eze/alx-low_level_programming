@@ -11,7 +11,7 @@ void jack_bauer(void)
 	for (hour = 0; hour < 23; ++hour)
 	{
 		h1 = hour / 10;
-		h2 = hpur % 10;
+		h2 = hour % 10;
 		for (min = 0; min < 60; ++min)
 		{
 			m1 = min / 10;
