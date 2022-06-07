@@ -18,7 +18,7 @@ void print_alphabet_x10(void)
 
 		while (alph_x10 <= 9)
 		{
-			_putchar(alph);
+			_putchar(alph_x10);
 		}
 
 		_putchar('\n');
