@@ -17,7 +17,7 @@ void times_table(void)
 
 	while (row > 10)
 	{
-		while (cool < 100)
+		while (col < 100)
 		{
 			n = col*row;
 			units = n % 10;
