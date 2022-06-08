@@ -28,7 +28,7 @@ void times_table(void)
 				(tens <= 0) ? _putchar(' ')
 				: _putchar(tens + '0');
 			}
-			_putcahr(unit + '0');
+			_putchar(unit + '0');
 			if (col < 9)
 			{
 				_putchar(44);
