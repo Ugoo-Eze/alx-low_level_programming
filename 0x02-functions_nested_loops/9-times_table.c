@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * _islower - function to check lowercase character.
- * @c: the argument of the _islower function.
+ * times_table - function to print times table
  *
- * Return: Always 0.
+ * Return: return void
 */
 
 void times_table(void)
 {
-	int col =0;
-	int row =0;
-	int units;
+	int col = 0;
+	int row = 0;
+	int units = 0;
 	int tens = 0;
 	int n = 0;
 
@@ -19,12 +18,12 @@ void times_table(void)
 	{
 		while (col < 100)
 		{
-			n = col*row;
+			n = col * row;
 			units = n % 10;
 			tens = (n - units) / 10;
-			if (col < 9)
+			if (col > 0)
 			{
-				_putcahr('');
+				_putchar(' ');
 				(tens <= 0) ? _putchar(' ')
 				: _putchar(tens + '0');
 			}
@@ -35,6 +34,7 @@ void times_table(void)
 			}
 			col++;
 		}
+
 		col = 0;
 		row++;
 		_putchar(10);
