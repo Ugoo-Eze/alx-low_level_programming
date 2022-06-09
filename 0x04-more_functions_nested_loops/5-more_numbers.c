@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - function to print digit 0-9
- * minus 2 & 4
+ * more_numbers - function to print digit 1-14x10
  *
  * Return: Always 0.
 */
