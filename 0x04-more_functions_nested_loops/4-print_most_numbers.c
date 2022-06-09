@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper - function to check uppercase character.
- * @c: the argument of the _islower function.
+ * print_most_numbers - function to print digit 0-9
+ * minus 2 & 4
  *
  * Return: Always 0.
 */
