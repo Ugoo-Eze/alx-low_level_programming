@@ -1,19 +1,25 @@
 #include "main.h"
 
 /**
- * print_line - function to print straight line
- *@: number of lines to draw
+ * more_numbers - print 0 to 14x10
  * Return: Always 0.
 */
 
 void more_numbers(void)
 {
-	int lines = n;
+	char num;
+	int lines;
 
-	for (lines = n; lines > 0; lines--)
+	for (lines = 0; lines <= 9; lines++)
 	{
-		_putchar('_');
+		for (num = 0; num <= 14; num++)
+		{
+			if (num / 10 > 0)
+			{
+				_putchar((num / 10) + '0');
+			}
+			_putchar((num % 10) + '0');
+		}
+		_putchar('\n');
 	}
-
-	_putchar('\n');
 }
