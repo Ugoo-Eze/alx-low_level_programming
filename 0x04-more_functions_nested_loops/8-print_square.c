@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - function to print straight line
- * @n: number of line to print
+ * print_square - function to print square
+ * @size: size of square
  *
  * Return: Always 0.
 */
@@ -14,11 +14,14 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (row = 1; column <= size; column++)
+		for (row = 1; column <= size; row++)
 		{
-			_putchar('#');
+			for (column = 1; column <= size; column++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 	else
 	{
