@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - function to check lowercase character.
- * @c: the argument of the _islower function.
+ * _isdigit - function to check for 0-9
+ * @c: the argument of the _isdigit function.
  *
  * Return: Always 0.
 */
