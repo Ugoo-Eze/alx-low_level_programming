@@ -1,9 +1,9 @@
 #include "main.h"
 
-/**
- * swap_int - function to swap two values
- *@a: argument value 1
- *@b: argument value 2
+/*
+ * _print_rev - function to print string reverse
+ *
+ * @s: pointer
 */
 
 void print_rev(char *s)
