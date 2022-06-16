@@ -25,7 +25,10 @@ char *_strncat(char *dest, char *src, int n)
 		x++;
 	}
 
-	dest[x] = 0;
+	if (y < n)
+	{
+		dest[x] = 0;
+	}
 
 	return (dest);
 }
