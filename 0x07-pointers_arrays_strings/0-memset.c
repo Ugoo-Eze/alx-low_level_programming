@@ -5,6 +5,7 @@
  * @s: pointer to memory area
  * @b: constant value
  * @n: number of bytes to fill
+ *
  * Return: memory area
 */
 
@@ -18,7 +19,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 		for (i = 0; i < size; i++)
 		{
-			s[i] = bj
+			s[i] = b;
 		}
 	}
 
