@@ -2,7 +2,8 @@
 #define NULL 0
 
 /**
- * _strpbrk - return pointer to byte in s that matches a byte in accept
+ * _strpbrk - function to return pointer to byte in s that
+ * matches a byte in accept
  * @s: string to search
  * @accept: target matches
  *
