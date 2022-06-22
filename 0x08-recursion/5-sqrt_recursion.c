@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _sqrt - function to find squre root of num
+ * find_root - function to find squre root of num
  * @x: number
- * @y: number
+ * @root: number num
  *
  * Return: return
 */
