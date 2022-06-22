@@ -8,7 +8,7 @@
  * Return: return
 */
 
-int _sqrt(int x, int y)
+int find_root(int x, int y)
 {
 	if (root * root > n)
 		return (-1);
