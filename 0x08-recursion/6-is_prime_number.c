@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * is_prime -function to check for  prime
- * @x: number
- * @y: number
+ * @divisor: number
+ * @n: number
  *
  * Return: result
 */
