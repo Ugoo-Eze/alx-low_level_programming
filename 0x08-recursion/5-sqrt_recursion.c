@@ -8,14 +8,14 @@
  * Return: return
 */
 
-int find_root(int x, int y)
+int find_root(int x, int root)
 {
-	if (root * root > n)
+	if (root * root > x)
 		return (-1);
-	else if (root * root == n)
+	else if (root * root == x)
 		return (root);
 	else
-		return (find_root(n, root + 1));
+		return (find_root(x, root + 1));
 }
 
 
