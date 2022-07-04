@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-/*
- * main - code starting point
+/**
+ * main - Program starting point
  *
- * return: Return
+ * Return: End program
 */
 
 int main(void)
 {
-	printf("File :%s\n", __FILE__ );
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
