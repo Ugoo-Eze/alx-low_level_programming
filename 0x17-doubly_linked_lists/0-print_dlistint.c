@@ -3,7 +3,7 @@
 /**
  * print_dlistint - count number of nodes
  * @h: head of double linked list
- * 
+ *
  * Return: number of nodes, or NULL if failed
 */
 
